@@ -223,6 +223,7 @@ p {
 /* Section 1 */
 .hero-content {
     background-color: var(--dark-color-header-and-background);
+    background-image: url(../images/officebg.jpg);
     padding: 188px 0;
 }
     /* Title */
@@ -361,6 +362,16 @@ p {
 
 .centered-text {
     text-align: center;
+}
+
+.social-media-list {
+    display: flex;
+    gap: 24px;
+    fill: var(--brand-color: #4D5AE5);
+}
+
+.social-media-icon {
+    cursor: pointer;
 }
 
 /* Footer */
