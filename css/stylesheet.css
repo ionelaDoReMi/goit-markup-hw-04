@@ -394,12 +394,46 @@ p {
     cursor: pointer;
 }
 
+/* Section 5 */
+.customers {
+    padding: 120px 0;
+}
+
+.customers-list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.customers-item {
+    width: 168px;
+    height: 88px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #8E8F99;
+    border-radius: 4px;
+}
+
+.customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8E8F99;
+    height: 100%;
+    width: 100%;
+}
+
+.customers-icon {
+    fill: currentColor;
+}
+
 /* Footer */
 .footer {
     background-color: var(--dark-color-header-and-background);
     padding: 100px 0;
 }
-
 
 
 /* Business Description */
