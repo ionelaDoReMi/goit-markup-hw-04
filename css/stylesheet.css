@@ -295,6 +295,16 @@ p {
     padding: 0;
 }
 
+.features-icon {
+    background-color: var(--light-color-logo-and-description);
+    height: 112px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Section 3 */
 
 .section-services {
@@ -366,8 +376,18 @@ p {
 
 .social-media-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
-    fill: var(--brand-color: #4D5AE5);
+    margin-top: 8px;
+}
+
+.social-media-icon {
+    background-color: var(--brand-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .social-media-icon {
@@ -403,7 +423,6 @@ p {
 
 /* Portfolio Filters */
 
-    
     .filter-list {
         display: flex;
         justify-content: center;
