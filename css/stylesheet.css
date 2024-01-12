@@ -107,6 +107,7 @@ p {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .navigation {
@@ -220,11 +221,16 @@ p {
 }
 
 /* Sections Studio */
+
 /* Section 1 */
 .hero-content {
     background-color: var(--dark-color-header-and-background);
-    background-image: url(../images/officebg.jpg);
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/officebg.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
     /* Title */
 
@@ -359,6 +365,7 @@ p {
 
 .our-team-option {
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .our-team-name {
@@ -392,11 +399,34 @@ p {
 
 .social-media-icon {
     cursor: pointer;
+    align-items: center;
+}
+
+.social-media-icon:hover,
+.social-media-icon:focus {
+    color: var(--hover-focus-navigation-menu);
+    background-color: var(#404bbf);
+}
+
+.social-media-logo {
+    fill: var(--light-color-logo-and-description);
+    height: 16;
 }
 
 /* Section 5 */
 .customers {
     padding: 120px 0;
+}
+
+.title-customers {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    color: var(--dark-color-header-and-background);
 }
 
 .customers-list {
@@ -423,6 +453,14 @@ p {
     color: #8E8F99;
     height: 100%;
     width: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+}
+
+.customers-link:hover,
+.customers-link:focus {
+    border-color: #404bbf;
+    color: #404bbf;
 }
 
 .customers-icon {
@@ -435,6 +473,39 @@ p {
     padding: 100px 0;
 }
 
+.footer-container: {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-container-logo-and-paragraph {
+    margin-right: 120px;
+}
+
+.footer-container-social-links {
+    
+}
+
+.footer-container-social-media-paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-color-header);
+    margin-bottom: 16px;
+}
+
+.footer-social-media-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.footer-social-media-item {
+    width: 40px;
+    height: 40;
+}
 
 /* Business Description */
 .bussines-description {
