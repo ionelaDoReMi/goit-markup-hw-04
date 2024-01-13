@@ -521,12 +521,11 @@ p {
     background-color: var(--brand-color);
     border-radius: 50%;
     display: flex;
-    align-items;
 }
 
 .footer-social-media-icon:hover,
 .footer-social-media-icon:focus {
-    background-color:     #31d0aa;
+    background-color: #31d0aa;
 };
 
 
