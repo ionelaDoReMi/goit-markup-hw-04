@@ -466,8 +466,9 @@ p {
 }
 
 .footer-container-social-links svg {
-    width: 24px height: 24px
-    fill: var(--light-color-logo-and-description)
+    width: 24px;
+    height: 24px;
+    fill: var(--light-color-logo-and-description);
 }
 
 .customers-link:hover,
