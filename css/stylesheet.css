@@ -461,6 +461,12 @@ p {
     height: 100%;
 }
 
+.footer-container-social-links svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--light-color-logo-and-description)
+}
+
 .customers-link:hover,
 .customers-link:focus {
     border-color: #404bbf;
