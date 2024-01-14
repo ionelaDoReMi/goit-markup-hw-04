@@ -399,6 +399,10 @@ p {
     align-items: center;
 }
 
+.footer-social-media-logo {
+    fill: var(--light-color-logo-and-description);
+}
+
 .section-our-team .our-team-option a:hover,
 .section-our-team .our-team-option a:focus {
     background-color: #404bbf;
